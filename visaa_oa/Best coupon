@@ -1,0 +1,7 @@
+X=int(input())
+discount1=X*0.10
+discount2=100
+if discount1>discount2:
+    print(int(X-discount1))
+else:
+    print(X-discount2)
